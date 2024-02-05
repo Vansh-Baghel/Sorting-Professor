@@ -27,6 +27,7 @@ Features
 ### Technologies
 
 Production libraries
+
 - [React](https://react.dev/) (Frontend Library)
 - [Redux Toolkit](https://redux-toolkit.js.org/) (State management)
 - [React Router](https://reactrouter.com/en/main/) (Router)
@@ -34,6 +35,7 @@ Production libraries
 - [Sonner](https://sonner.emilkowal.ski/) (Toast)
 
 Build libraries
+
 - [Sass](https://sass-lang.com/) (CSS compiler)
 - [Vite](https://vitejs.dev/) (Bundler)
 - [Vitest](https://vitest.dev/) (Unit test)

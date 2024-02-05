@@ -1,13 +1,13 @@
 {
   "name": "algo-visualizer",
   "private": true,
-  "homepage": "https://Vansh-Baghel.github.io/react-gh-pages",
+  "homepage": "https://Vansh-Baghel.github.io/sorting-visualizer/dist/#/sorting-visualizer/insertion",
   "version": "0.0.0",
   "type": "module",
   "license": "MIT",
   "author": {
-    "name": "Sadanand pai",
-    "email": "sadypai@gmail.com"
+    "name": "Vansh Baghel",
+    "email": "vanshbaghel912@gmail.com"
   },
   "scripts": {
     "dev": "vite",
