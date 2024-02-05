@@ -1,6 +1,7 @@
 {
   "name": "algo-visualizer",
   "private": true,
+  "homepage": "https://Vansh-Baghel.github.io/react-gh-pages",
   "version": "0.0.0",
   "type": "module",
   "license": "MIT",
@@ -10,6 +11,8 @@
   },
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
@@ -45,6 +48,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "eslint-plugin-unused-imports": "^3.0.0",
+    "gh-pages": "^6.1.1",
     "jsdom": "^23.0.1",
     "postcss": "^8.4.32",
     "sass": "^1.69.6",
@@ -63,6 +67,5 @@
   },
   "volta": {
     "node": "18.18.0"
-  },
-  "homepage": "https://github.com/sadanandpai/sorting-visualizer"
+  }
 }
