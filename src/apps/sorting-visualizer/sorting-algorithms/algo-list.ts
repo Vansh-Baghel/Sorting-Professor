@@ -5,24 +5,24 @@ import { quickSort } from './quick';
 import { selectionSort } from './selection';
 
 export const algoList = [
-  // {
-  //   name: 'bubble',
-  //   fn: bubbleSort,
-  // },
-  // {
-  //   name: 'selection',
-  //   fn: selectionSort,
-  // },
+  {
+    name: 'bubble',
+    fn: bubbleSort,
+  },
+  {
+    name: 'selection',
+    fn: selectionSort,
+  },
   {
     name: 'insertion',
     fn: insertionSort,
   },
-  // {
-  //   name: 'merge',
-  //   fn: mergeSort,
-  // },
-  // {
-  //   name: 'quick',
-  //   fn: quickSort,
-  // },
+  {
+    name: 'merge',
+    fn: mergeSort,
+  },
+  {
+    name: 'quick',
+    fn: quickSort,
+  },
 ];

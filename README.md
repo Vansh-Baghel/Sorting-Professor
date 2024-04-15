@@ -59,6 +59,9 @@ Build libraries
 - `git clone https://github.com/Aviitansh/SortingVisualizer`
 - `cd sorting-visualizer`
 - `npm install`
+cd sorting-visualizer
+npm install
+npm run dev
 - `npm run dev`
 
 ---
